@@ -3,7 +3,7 @@ font pango:Monocraft 11
 
 exec --no-startup-id dex --autostart --environment i3
 exec_always --no-startup-id picom
-exec_always --no-startup-id feh --bg-scale /home/isaac/.config/i3/CozyCabin.jpg
+exec_always --no-startup-id feh --bg-scale /home/isaac/.config/i3/CozyCabin1080p.jpg
 exec --no-startup-id pkill polybar
 exec_always --no-startup-id polybar
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
