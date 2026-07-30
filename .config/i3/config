@@ -3,7 +3,7 @@ font pango:Monocraft 11
 
 exec --no-startup-id dex --autostart --environment i3
 exec_always --no-startup-id picom
-exec_always --no-startup-id feh --bg-scale /home/isaac/.config/i3/CozyCabin1080p.jpg
+exec_always --no-startup-id feh --bg-scale /home/isaac/.config/i3/CozyCabin768p.jpg
 exec --no-startup-id pkill polybar
 exec_always --no-startup-id polybar
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
@@ -111,7 +111,7 @@ gaps inner 8
 gaps outer 2
 
 # class                 border      background  text        indicator   child_border
-client.focused          #52c47e     #0d1a13     #c8e6d0     #2fae8b     #52c47e
+client.focused          #52c47e     #0d1a13     #c8e6d0     #52c47e    #52c47e
 client.focused_inactive #274433     #0d1a13     #9cbfa8     #1c3326     #274433
 client.unfocused        #1c3326     #0a140f     #6e8f7a     #1c3326     #1c3326
 client.urgent           #a4553f     #0d1a13     #c8e6d0     #a4553f     #a4553f
