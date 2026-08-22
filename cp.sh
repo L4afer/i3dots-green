@@ -7,7 +7,3 @@ cp -r ~/Downloads/i3dots-green/.config/neofetch ~/.config
 cp -r ~/Downloads/i3dots-green/.config/kitty ~/.config/
 cp -r ~/Downloads/i3dots-green/.config/kitty/.zshrc ~/
 cp -r ~/Downloads/i3dots-green/.config/i3 ~/.config/
-sudo chmod +x ~/.config/i3/scrot.sh
-sudo chmod +X ~/.config/i3/scrot1.sh
-sudo chmod +x ~/.config/i3/kblayout.sh
-sudo chmod +x ~/.config/i3/polr.sh

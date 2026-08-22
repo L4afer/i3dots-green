@@ -1,14 +1,14 @@
 /* ── Palette ─────────────────────────────────────────────────────────── */
 * {
-    base:     rgba(23, 37, 38, 0.75);
-    mantle:   rgba(23, 37, 38, 0.75);
+    base:     rgba(18, 22, 48, 0.75);
+    mantle:   rgba(85, 45, 45, 0.75);
     crust:    rgba(17, 17, 27, 1);
-    surface0: rgba(50, 68, 49, 1);
+    surface0: rgb(68, 49, 49);
     surface1: rgba(71, 90, 69, 1);
     surface2: rgba(88, 91, 112, 1);
     overlay0: rgba(108, 112, 134, 1);
     overlay1: rgba(127, 132, 156, 1);
-    text:     rgba(208, 234, 191, 1);
+    text:     rgb(255, 122, 122);
     subtext0: rgba(166, 173, 200, 1);
     lavender: rgba(180, 190, 254, 1);
     blue:     rgba(137, 180, 250, 1);
@@ -20,11 +20,10 @@
     peach:    rgba(250, 179, 135, 1);
     maroon:   rgba(235, 160, 172, 1);
     red:      rgba(243, 139, 168, 1);
-    mauve:    rgba(16, 51, 12, 0.5);
+    mauve:    rgb(82, 39, 39);
     pink:     rgba(245, 194, 231, 1);
     flamingo: rgba(242, 205, 205, 1);
     rosewater:rgba(245, 224, 220, 1);
-    borderc : rgb(99, 160, 91);
 
     /* Rofi colour vars */
     background-color: transparent;
@@ -36,9 +35,7 @@
 /* ── Window ──────────────────────────────────────────────────────────── */
 window {
     background-color: @base;
-    //border-radius:    20px;
-    border: 3px;
-    border-color: @borderc; 
+    border-radius:    20px;
     padding:          0;
     width:            520px;
 }

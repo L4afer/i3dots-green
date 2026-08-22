@@ -18,7 +18,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 
 # MY KEYBINDS
 bindsym $mod+Q exec kitty #terminal
-bindsym $mod+L exec ~/.config/i3/lock.sh
+bindsym $mod+Escape exec ~/.config/i3/lock.sh
 bindsym Mod1+Return exec ~/.config/i3/scrot.sh
 bindsym $mod+Return exec ~/.config/i3/scrot1.sh
 bindsym $mod+Shift+q kill 
