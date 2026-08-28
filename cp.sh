@@ -7,3 +7,4 @@ cp -r ~/Downloads/i3dots-green/.config/neofetch ~/.config
 cp -r ~/Downloads/i3dots-green/.config/kitty ~/.config/
 cp -r ~/Downloads/i3dots-green/.config/kitty/.zshrc ~/
 cp -r ~/Downloads/i3dots-green/.config/i3 ~/.config/
+betterlockscreen -u ~/.config/i3/water768p.png
