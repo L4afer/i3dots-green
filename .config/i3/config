@@ -19,6 +19,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 # MY KEYBINDS
 bindsym $mod+Q exec kitty #terminal
 bindsym $mod+Shift+G exec ~/Downloads/i3dots-green/cp.sh
+bindsym $mod+Shift+A exec ~/Downloads/i3dots-autumn/cp.sh
 bindsym $mod+shift+S exec ~/Downloads/i3dots-spiderman/cp.sh
 bindsym $mod+Escape exec ~/.config/i3/lock.sh
 bindsym Mod1+Return exec ~/.config/i3/scrot.sh
@@ -109,7 +110,7 @@ gaps outer 1
 # class                 border      background  text        indicator   child_border
 client.focused          #52c47e     #0d1a13     #c8e6d0     #52c47e    #52c47e
 client.focused_inactive #274433     #0d1a13     #9cbfa8     #1c3326     #274433
-client.unfocused        #1c3326     #0a140f     #6e8f7a     #1c3326     #1c3326
+client.unfocused        #cc5500     #0a140f     #6e8f7a     #cc5500     #cc5500
 client.urgent           #a4553f     #0d1a13     #c8e6d0     #a4553f     #a4553f
 client.placeholder      #274433     #0d1a13     #c8e6d0     #000000     #274433
 client.background       #0d1a13
