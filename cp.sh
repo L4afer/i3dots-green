@@ -6,6 +6,7 @@ cp -r ~/Downloads/i3dots-green/.config/rofi ~/.config/
 cp -r ~/Downloads/i3dots-green/.config/neofetch ~/.config
 cp -r ~/Downloads/i3dots-green/.config/kitty ~/.config/
 cp -r ~/Downloads/i3dots-green/.config/kitty/.zshrc ~/
+rm -rf ~/.config/i3
 cp -r ~/Downloads/i3dots-green/.config/i3 ~/.config/
 i3 reload
 ~/.config/i3/polr.sh
