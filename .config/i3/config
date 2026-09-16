@@ -109,7 +109,7 @@ gaps outer 1
 # class                 border      background  text        indicator   child_border
 client.focused          #52c47e     #0d1a13     #c8e6d0     #52c47e    #52c47e
 client.focused_inactive #274433     #0d1a13     #9cbfa8     #1c3326     #274433
-client.unfocused        #cc5500     #0a140f     #6e8f7a     #cc5500     #cc5500
+client.unfocused        #1c3326     #0a140f     #6e8f7a     #1c3326     #1c3326
 client.urgent           #a4553f     #0d1a13     #c8e6d0     #a4553f     #a4553f
 client.placeholder      #274433     #0d1a13     #c8e6d0     #000000     #274433
 client.background       #0d1a13
