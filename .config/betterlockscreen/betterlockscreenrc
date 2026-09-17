@@ -10,8 +10,8 @@ font="Departure Mono Nerd Font"
 # --- input-field { } ---
 # outer_color = rgb(151515)
 ring_color="00000000"
-ringvercolor="73a2c7"
-ringwrongcolor="73a2c7"
+ringvercolor="6bbf8e"
+ringwrongcolor="6bbf8e"
 
 insidecolor="00000000"
 insidevercolor="00000000"
