@@ -22,7 +22,7 @@ bindsym $mod+Shift+A exec ~/Downloads/i3dots-autumn/cp.sh
 bindsym $mod+shift+S exec ~/Downloads/i3dots-spiderman/cp.sh
 bindsym $mod+Escape exec ~/.config/i3/lock.sh
 bindsym Mod1+Return exec ~/.config/i3/scrot.sh
-bindsym $mod+Return exec ~/.config/i3/scrot1.sh
+bindsym Print exec ~/.config/i3/scrot1.sh
 bindsym $mod+Shift+q kill 
 bindsym $mod+D exec rofi -show drun #app launcher
 bindsym $mod+E exec nautilus
