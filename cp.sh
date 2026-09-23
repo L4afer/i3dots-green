@@ -1,0 +1,13 @@
+cp -r ~/Downloads/i3dots-green/.config/betterlockscreen ~/.config/
+cp -r ~/Downloads/i3dots-green/.config/picom ~/.config/
+cp -r ~/Downloads/i3dots-green/.config/nvim ~/.config/
+cp -r ~/Downloads/i3dots-green/.config/polybar/ ~/.config/
+cp -r ~/Downloads/i3dots-green/.config/rofi ~/.config/
+cp -r ~/Downloads/i3dots-green/.config/neofetch ~/.config
+cp -r ~/Downloads/i3dots-green/.config/kitty ~/.config/
+cp -r ~/Downloads/i3dots-green/.config/kitty/.zshrc ~/
+rm -rf ~/.config/i3
+cp -r ~/Downloads/i3dots-green/.config/i3 ~/.config/
+i3 reload
+~/.config/i3/polr.sh
+betterlockscreen -u ~/.config/i3/CozyCabin768p.jpg
