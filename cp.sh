@@ -1,4 +1,3 @@
-cp -r ~/Downloads/i3dots-green/.config/betterlockscreen ~/.config/
 cp -r ~/Downloads/i3dots-green/.config/picom ~/.config/
 cp -r ~/Downloads/i3dots-green/.config/nvim ~/.config/
 cp -r ~/Downloads/i3dots-green/.config/polybar/ ~/.config/

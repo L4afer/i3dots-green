@@ -10,7 +10,6 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 git clone https://github.com/zsh-users/zsh-syntax-highlighting ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
 #Copy the dotfiles
-cp -r ~/Downloads/i3dots-green/.config/betterlockscreen ~/.config/
 cp -r ~/Downloads/i3dots-green/.config/picom ~/.config/
 cp -r ~/Downloads/i3dots-green/.config/nvim ~/.config/
 cp -r ~/Downloads/i3dots-green/.config/polybar/ ~/.config/
